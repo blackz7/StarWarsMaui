@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SwapiDev.MainPage"
+             x:Name="ListPage"
+             BindingContext="{x:Reference ListPage}"
+             Title="HomePage">
+
+
+    <StackLayout Grid.Row="1" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+        <Label Text="Benvenuto nell'app di Star Wars" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+        <Button Text="Dark/Light Mode" Clicked="ChangeTheme"/>
+    </StackLayout>
+
+</ContentPage>
